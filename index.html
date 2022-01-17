@@ -1,6 +1,25 @@
 <!doctype html>
-<html>
 
+<style>
+  details.custom[open]{
+      counter-reset:section;
+      font-weight:bold;
+  }
+  details.custom[open] span{
+      counter-reset:section;
+      font-weight:normal;
+      list-style-type: none;
+  }
+
+  details.custom{
+      counter-reset:section;
+      padding-top: 1.0em;
+      padding-left: 1.0em;
+      padding-bottom: 0.5em;
+  }
+</style>
+
+<html>
   <head>
     <meta charset="utf-8"/>
     <title>Z.lit Download</title>
@@ -12,97 +31,102 @@
   <body>
     <h1>Z.lit Download</h1>
 
-    <h3>v150(1507) QA 서버</h3>
-    <ul>
-      <li>준비중</>
-<!--       <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1507.plist">iPhone</a></li>
-      <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1507.apk" type="application/vnd.android.package-archive">Android</a></li> -->
-    </ul>
-    <ul>
-    <ol>
-      <li>회원가입시 이벤트푸시 설정 반영</li>
-    </ol>
-    </ul>
+<!--     <details class = 'custom'>
+      <summary>V150(1507) QA</summary>
+        <span>
+          <ul>
+            <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1507.plist">iPhone</a></li>
+            <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1507.apk" type="application/vnd.android.package-archive">Android</a></li>
+          </ul>
+          <ol>
+            <li>회원가입시 이벤트푸시 설정 반영</li>
+        </ol>
+    </span>
+    </details>
+ -->
+    <details class = 'custom'>
+      <summary>V150(1506) QA</summary>
+        <span>
+          <ul>
+            <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1506.plist">iPhone</a></li>
+            <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1506.apk" type="application/vnd.android.package-archive">Android</a></li>
+          </ul>
+          <ol>
+            <li>중복 로그인 방지 추가</li>
+        </ol>
+    </span>
+    </details>
 
-    <h3>v150(1506) QA 서버</h3>
-    <ul>
-      <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1506.plist">iPhone</a></li>
-      <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1506.apk" type="application/vnd.android.package-archive">Android</a></li>
-    </ul>
-    <ul>
-    <ol>
-      <li>중복 로그인 방지 추가</li>
-      <li>포인트 스토어 UI 변경</li>
-      <li>Facebook 로그인 수정</li>
-      <li>폴더블폰에서 UI 개선(임시방편)</li>
-      <li>각종 패키지 업데이트</li>
-      <li>공지사항, FAQ 화면 열림/닫힘 효과 수정</li>
-      <li>채널/영상 공유시 미리보기 적용</li>
-      <li>이메일 인증화면 진입시 코드전송 깜빡임 수정</li>
-      <li>이메일 미입력 후 코드전송시 안내문구 추가</li>
-      <li>인증코드 발송 실패시 재발송 할 수 있도록 팝업창 유지</li>
-      <li>Youtube용 플레이어 개선</li>
-      <li>상점 개편</li>
-    </ol>
-    </ul>
+    <details class = 'custom'>
 
+      <summary>V150(1505) QA</summary>
+        <span>
+          <ul>
+            <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1505.plist">iPhone</a></li>
+            <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1505.apk" type="application/vnd.android.package-archive">Android</a></li>
+          </ul>
+          <ol>
+            <li>포인트 스토어 UI 변경</li>
+            <li>Facebook 로그인 수정</li>
+            <li>폴더블폰에서 UI 개선(임시방편)</li>
+        </ol>
+    </span>
+    </details>
 
-    <!-- <h3>v150(1505) QA 서버</h3>
-    <ul>
-      <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1505.plist">iPhone</a></li>
-      <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1505.apk" type="application/vnd.android.package-archive">Android</a></li>
-    </ul>
-    <ul>
-    <ol>
-      <li>포인트 스토어 UI 변경</li>
-      <li>Facebook 로그인 수정</li>
-      <li>폴더블폰에서 UI 개선(임시방편)</li>
-    </ol>
-    </ul> -->
+    <details class = 'custom'>
+      <summary>V150(1504) QA</summary>
+        <span>
+          <ul>
+            <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1504.plist">iPhone</a></li>
+            <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1504.apk" type="application/vnd.android.package-archive">Android</a></li>
+          </ul>
+          <ol>
+            <li>각종 패키지 업데이트</li>
+            <li>공지사항, FAQ 화면 열림/닫힘 효과 수정</li>
+            <li>채널/영상 공유시 미리보기 적용</li>
+        </ol>
+    </span>
+    </details>
 
-    <!-- <h3>v150(1504) QA 서버</h3>
-    <ul>
-      <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1504.plist">iPhone</a></li>
-      <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1504.apk" type="application/vnd.android.package-archive">Android</a></li>
-    </ul>
-    <ul>
-    <ol>
-      <li>각종 패키지 업데이트</li>
-      <li>공지사항, FAQ 화면 열림/닫힘 효과 수정</li>
-      <li>채널/영상 공유시 미리보기 적용</li>
-    </ol>
-    </ul>
+    <details class = 'custom'>
+      <summary>V150(1503) QA</summary>
+        <span>
+          <ul>
+            <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1503.plist">iPhone</a></li>
+            <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1503.apk" type="application/vnd.android.package-archive">Android</a></li>
+          </ul>
+          <ol>
+            <li>이메일 인증화면 진입시 코드전송 깜빡임 수정</li>
+            <li>이메일 미입력 후 코드전송시 안내문구 추가</li>
+            <li>인증코드 발송 실패시 재발송 할 수 있도록 팝업창 유지</li>
+        </ol>
+    </span>
+    </details>
 
-    <h3>v150(1503) QA 서버</h3>
-    <ul>
-      <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1503.plist">iPhone</a></li>
-      <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1503.apk" type="application/vnd.android.package-archive">Android</a></li>
-    </ul>
-    <ul>
-    <ol>
-      <li>이메일 인증화면 진입시 코드전송 깜빡임 수정</li>
-      <li>이메일 미입력 후 코드전송시 안내문구 추가</li>
-      <li>인증코드 발송 실패시 재발송 할 수 있도록 팝업창 유지</li>
-    </ol>
-    </ul>
+    <details class = 'custom'>
+      <summary>V150(1502) QA</summary>
+        <span>
+          <ul>
+            <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1502.plist">iPhone</a></li>
+            <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1502.apk" type="application/vnd.android.package-archive">Android</a></li>
+          </ul>
+          <ol>
+            <li>Youtube용 플레이어 개선</li>
+            <li>상점 개편</li>
+        </ol>
+    </span>
+    </details>
 
-    <h3>v150(1502) QA 서버</h3>
-    <ul>
-      <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1502.plist">iPhone</a></li>
-      <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1502.apk" type="application/vnd.android.package-archive">Android</a></li>
-    </ul>
-    <ul>
-    <ol>
-      <li>Youtube용 플레이어 개선</li>
-    </ol>
-    </ul> -->
-
-    <h3>v150(1501) 메타플립 로그인 테스트</h3>
-    <ul>
-      <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1501.plist">iPhone</a></li>
-      <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1501.apk" type="application/vnd.android.package-archive">Android</a></li>
-    </ul>
-    <ul>
-  </ul>
+    <details class = 'custom'>
+      <summary>V150(1501) 메타플립 로그인 테스트</summary>
+        <span>
+          <ul>
+            <li><a href="itms-services://?action=download-manifest&url=https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/ios_v150_1501.plist">iPhone</a></li>
+            <li><a href="https://z-lit-dev.s3.ap-northeast-2.amazonaws.com/public/client-app/aos_v150_1501.apk" type="application/vnd.android.package-archive">Android</a></li>
+          </ul>
+          <ol>
+        </ol>
+    </span>
+    </details>
   </body>
 </html>
