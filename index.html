@@ -1,21 +1,32 @@
 <!doctype html>
 
 <style>
-  details.custom[open]{
-      counter-reset:section;
-      font-weight:bold;
-  }
-  details.custom[open] span{
-      counter-reset:section;
-      font-weight:normal;
-      list-style-type: none;
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    margin-top: .5em;
+    margin-bottom: .5em;
   }
 
-  details.custom{
-      counter-reset:section;
-      padding-top: 1.0em;
-      padding-left: 1.0em;
-      padding-bottom: 0.5em;
+  details[open] {
+    /* border: 1px solid #aaa; */
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+
+
+  summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+  }
+
+  details[open] {
+    padding: .5em;
   }
 </style>
 
