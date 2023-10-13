@@ -1,2 +1,2 @@
 # zlit
-zlit_download
+zlit_download page
